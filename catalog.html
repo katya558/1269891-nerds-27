@@ -26,7 +26,7 @@
       <h1 class="page-title">Магазин готовых шаблонов</h1>
         <section class="filters" >
           <h2 class="visually-hiden" > Фильтр товаров </h2>
-            <form class="filter" action="#" method="GET">
+            <form class="filter" action="https://echo.htmlacademy.ru"  method="GET">
               <fieldset>
                 <legend>сетка</legend>
                   <ul>
@@ -48,23 +48,23 @@
                 <legend>особенности:</legend>
                   <ul>
                     <li class="filter-option">
-                      <input class="filter-input-checkbox" type="checkbox" name="slider" id="filter-slider" checked >
+                      <input class="filter-input-checkbox" type="checkbox" value="slider" id="filter-slider" name="features" checked >
                         <label for="filter-slider">слайдер</label>
                     </li>
                     <li class="filter-option">
-                      <input class="filter-input-checkbox" type="checkbox" name="benefits-block" id="filter-benefits-block"  >
+                      <input class="filter-input-checkbox" type="checkbox" value="benefits-block" name="features" id="filter-benefits-block"  >
                         <label for="filter-benefits-block">блок преимуществ</label>
                     </li>
                     <li class="filter-option">
-                      <input class="filter-input-checkbox" type="checkbox" name="news" id="filter-news" checked >
+                      <input class="filter-input-checkbox" type="checkbox" value="news" name="features" id="filter-news" checked >
                         <label for="filter-news">новости</label>
                     </li>
                     <li class="filter-option">
-                      <input class="filter-input-checkbox" type="checkbox" name="gallery" id="filter-gallery"  >
+                      <input class="filter-input-checkbox" type="checkbox" value="gallery" name="features" id="filter-gallery"  >
                         <label for="filter-gallery">галерея</label>
                     </li>
                     <li class="filter-option">
-                      <input class="filter-input-checkbox" type="checkbox" name="basket" id="filter-basket"  >
+                      <input class="filter-input-checkbox" type="checkbox" value="basket" name="features" id="filter-basket"  >
                         <label for="filter-basket">корзина</label>
                     </li>
                   </ul>
@@ -117,18 +117,18 @@
           </ul>
           <section>
             <h2>Напишите нам</h2>
-              <form action="#" method="POST">
-                <p class="Feedback">
-                  <label for="Feedback-name">Ваше имя</label>
-                    <input type="text" name="name" id="Feedback-name" placeholder="Имя Фамилия">
+              <form action="https://echo.htmlacademy.ru"  method="POST">
+                <p class="feedback">
+                  <label for="feedback-name">Ваше имя</label>
+                    <input type="text" name="name" id="feedback-name" placeholder="Имя Фамилия">
                 </p>
-                <p class="Feedback">
-                  <label for="Feedback-mail">Ваш e-mail</label>
-                    <input type="e-mail" name="e-mail" id="Feedback-mail" placeholder="e-mail@example.com" >
+                <p class="feedback">
+                  <label for="feedback-mail">Ваш e-mail</label>
+                    <input type="e-mail" name="e-mail" id="feedback-mail" placeholder="e-mail@example.com" >
                 </p>
-                <p class="Feedback">
-                  <label for="Feedback-text">Текст письма</label>
-                    <textarea name="comment" id="Feedback-text" cols="110" rows="10" placeholder="В свободной форме"></textarea>
+                <p class="feedback">
+                  <label for="feedback-text">Текст письма</label>
+                    <textarea name="comment" id="feedback-text" cols="110" rows="10" placeholder="В свободной форме"></textarea>
                 </p>
                 <button class="button" type="submit">Отправить</button>
               </form>
